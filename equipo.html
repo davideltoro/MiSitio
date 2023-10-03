@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro Equipo</title>
+    <!-- Enlace a Bootstrap CDN para los estilos -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados */
+        body {
+            background-color: #fff; /* Fondo blanco */
+            color: #000; /* Texto negro */
+        }
+        .navbar {
+            background-color: #58B2AF; /* Color del menú */
+        }
+        .navbar-brand {
+            color: #fff; /* Color del texto del logo */
+        }
+        .navbar-nav .nav-link {
+            color: #fff; /* Color del texto del menú */
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+        .navbar-nav .nav-link:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Color de fondo al pasar el mouse */
+        }
+        .team-member {
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            margin: 20px;
+            background-color: #fff;
+        }
+        .team-member img {
+            max-width: 100px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="equipo.html">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="noticias.html">Noticias</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección de Equipo -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="team-member">
+                    <img src="images/foto1.jpg" alt="Miembro del Equipo 1">
+                    <h3>Nombre del Miembro 1</h3>
+                    <p>Descripción del perfil del Miembro 1.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-member">
+                    <img src="images/foto2.jpg" alt="Miembro del Equipo 2">
+                    <h3>Nombre del Miembro 2</h3>
+                    <p>Descripción del perfil del Miembro 2.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-member">
+                    <img src="images/foto3.jpg" alt="Miembro del Equipo 3">
+                    <h3>Nombre del Miembro 3</h3>
+                    <p>Descripción del perfil del Miembro 3.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-member">
+                    <img src="images/foto4.jpg" alt="Miembro del Equipo 4">
+                    <h3>Nombre del Miembro 4</h3>
+                    <p>Descripción del perfil del Miembro 4.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-member">
+                    <img src="images/foto5.jpg" alt="Miembro del Equipo 5">
+                    <h3>Nombre del Miembro 5</h3>
+                    <p>Descripción del perfil del Miembro 5.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Enlace a Bootstrap JS y jQuery CDN al final para una carga más rápida -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
